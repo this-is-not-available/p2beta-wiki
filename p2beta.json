@@ -342,39 +342,48 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_00.bsp"
+                            "filename": "testchmb_a_00.bsp",
+                            "areas": "p1_chamber_00, p1_chamber_01"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_01.bsp"
+                            "filename": "testchmb_a_01.bsp",
+                            "areas": "p1_chamber_02, p1_chamber_03"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_02.bsp"
+                            "filename": "testchmb_a_02.bsp",
+                            "areas": "p1_chamber_04, p1_chamber_05"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_03.bsp"
+                            "filename": "testchmb_a_03.bsp",
+                            "areas": "p1_chamber_06, p1_chamber_07"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_04.bsp"
+                            "filename": "testchmb_a_04.bsp",
+                            "areas": "p1_chamber_08"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_05.bsp"
+                            "filename": "testchmb_a_05.bsp",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_06.bsp"
+                            "filename": "testchmb_a_06.bsp",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_07.bsp"
+                            "filename": "testchmb_a_07.bsp",
+                            "areas": "p1_chamber_11, p1_chamber_12"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_08.bsp"
+                            "filename": "testchmb_a_08.bsp",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -382,7 +391,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_09.bsp"
+                            "filename": "testchmb_a_09.bsp",
+                            "areas": "p1_chamber_14"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -390,7 +400,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_10.bsp"
+                            "filename": "testchmb_a_10.bsp",
+                            "areas": "p1_chamber_15"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -398,7 +409,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_11.bsp"
+                            "filename": "testchmb_a_11.bsp",
+                            "areas": "p1_chamber_16"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -406,7 +418,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_13.bsp"
+                            "filename": "testchmb_a_13.bsp",
+                            "areas": "p1_chamber_17"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -414,7 +427,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_14.bsp"
+                            "filename": "testchmb_a_14.bsp",
+                            "areas": "p1_chamber_18"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -422,7 +436,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_15.bsp"
+                            "filename": "testchmb_a_15.bsp",
+                            "areas": "p1_chamber_19"
                         }
                     ]
                 }
@@ -1316,39 +1331,48 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_00.bsp"
+                            "filename": "testchmb_a_00.bsp",
+                            "areas": "p1_chamber_00, p1_chamber_01"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_01.bsp"
+                            "filename": "testchmb_a_01.bsp",
+                            "areas": "p1_chamber_02, p1_chamber_03"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_02.bsp"
+                            "filename": "testchmb_a_02.bsp",
+                            "areas": "p1_chamber_04, p1_chamber_05"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_03.bsp"
+                            "filename": "testchmb_a_03.bsp",
+                            "areas": "p1_chamber_06, p1_chamber_07"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_04.bsp"
+                            "filename": "testchmb_a_04.bsp",
+                            "areas": "p1_chamber_08"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_05.bsp"
+                            "filename": "testchmb_a_05.bsp",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_06.bsp"
+                            "filename": "testchmb_a_06.bsp",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_07.bsp"
+                            "filename": "testchmb_a_07.bsp",
+                            "areas": "p1_chamber_11, p1_chamber_12"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_08.bsp"
+                            "filename": "testchmb_a_08.bsp",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1356,7 +1380,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_09.bsp"
+                            "filename": "testchmb_a_09.bsp",
+                            "areas": "p1_chamber_14"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1364,7 +1389,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_10.bsp"
+                            "filename": "testchmb_a_10.bsp",
+                            "areas": "p1_chamber_15"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1372,7 +1398,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_11.bsp"
+                            "filename": "testchmb_a_11.bsp",
+                            "areas": "p1_chamber_16"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1380,7 +1407,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_13.bsp"
+                            "filename": "testchmb_a_13.bsp",
+                            "areas": "p1_chamber_17"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1388,7 +1416,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_14.bsp"
+                            "filename": "testchmb_a_14.bsp",
+                            "areas": "p1_chamber_18"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -1396,7 +1425,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_15.bsp"
+                            "filename": "testchmb_a_15.bsp",
+                            "areas": "p1_chamber_19"
                         }
                     ]
                 }
@@ -2463,39 +2493,48 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_00.bsp"
+                            "filename": "testchmb_a_00.bsp",
+                            "areas": "p1_chamber_00, p1_chamber_01"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_01.bsp"
+                            "filename": "testchmb_a_01.bsp",
+                            "areas": "p1_chamber_02, p1_chamber_03"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_02.bsp"
+                            "filename": "testchmb_a_02.bsp",
+                            "areas": "p1_chamber_04, p1_chamber_05"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_03.bsp"
+                            "filename": "testchmb_a_03.bsp",
+                            "areas": "p1_chamber_06, p1_chamber_07"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_04.bsp"
+                            "filename": "testchmb_a_04.bsp",
+                            "areas": "p1_chamber_08"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_05.bsp"
+                            "filename": "testchmb_a_05.bsp",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_06.bsp"
+                            "filename": "testchmb_a_06.bsp",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_07.bsp"
+                            "filename": "testchmb_a_07.bsp",
+                            "areas": "p1_chamber_11, p1_chamber_12"
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_08.bsp"
+                            "filename": "testchmb_a_08.bsp",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2503,7 +2542,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_09.bsp"
+                            "filename": "testchmb_a_09.bsp",
+                            "areas": "p1_chamber_14"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2511,7 +2551,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_10.bsp"
+                            "filename": "testchmb_a_10.bsp",
+                            "areas": "p1_chamber_15"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2519,7 +2560,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_11.bsp"
+                            "filename": "testchmb_a_11.bsp",
+                            "areas": "p1_chamber_16"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2527,7 +2569,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_13.bsp"
+                            "filename": "testchmb_a_13.bsp",
+                            "areas": "p1_chamber_17"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2535,7 +2578,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_14.bsp"
+                            "filename": "testchmb_a_14.bsp",
+                            "areas": "p1_chamber_18"
                         },
                         {
                             "description": "Portal 1 advanced chamber",
@@ -2543,7 +2587,8 @@
                         },
                         {
                             "description": "Portal 1 campaign map",
-                            "filename": "testchmb_a_15.bsp"
+                            "filename": "testchmb_a_15.bsp",
+                            "areas": "p1_chamber_19"
                         }
                     ]
                 }
@@ -4002,6 +4047,106 @@
         }
     },
     "areas": {
+        "p1_chamber_00": {
+            "name": "Chamber 00",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 00"
+        },
+        "p1_chamber_01": {
+            "name": "Chamber 01",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 01"
+        },
+        "p1_chamber_02": {
+            "name": "Chamber 02",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 02"
+        },
+        "p1_chamber_03": {
+            "name": "Chamber 03",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 03"
+        },
+        "p1_chamber_04": {
+            "name": "Chamber 04",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 04"
+        },
+        "p1_chamber_05": {
+            "name": "Chamber 05",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 05"
+        },
+        "p1_chamber_06": {
+            "name": "Chamber 06",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 06"
+        },
+        "p1_chamber_07": {
+            "name": "Chamber 07",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 07"
+        },
+        "p1_chamber_08": {
+            "name": "Chamber 08",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 08"
+        },
+        "p1_chamber_09": {
+            "name": "Chamber 09",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 09"
+        },
+        "p1_chamber_10": {
+            "name": "Chamber 10",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 10"
+        },
+        "p1_chamber_11": {
+            "name": "Chamber 11",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 11"
+        },
+        "p1_chamber_12": {
+            "name": "Chamber 12",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 12"
+        },
+        "p1_chamber_13": {
+            "name": "Chamber 13",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 13"
+        },
+        "p1_chamber_14": {
+            "name": "Chamber 14",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 14"
+        },
+        "p1_chamber_15": {
+            "name": "Chamber 15",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 15"
+        },
+        "p1_chamber_16": {
+            "name": "Chamber 16",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 16"
+        },
+        "p1_chamber_17": {
+            "name": "Chamber 17",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 17"
+        },
+        "p1_chamber_18": {
+            "name": "Chamber 18",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 18"
+        },
+        "p1_chamber_19": {
+            "name": "Chamber 19",
+            "type": "Puzzle",
+            "description": "Portal 1 chamber 19"
+        },
         "angled_bridge": {
             "name": "Angled Bridge",
             "type": "Puzzle"
