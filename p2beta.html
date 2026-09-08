@@ -24,21 +24,6 @@
     <script>
         let fetchedData;
 
-        async function fetchJsonData(url) {
-            try {
-                const response = await fetch(url);
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                
-                const data = await response.json();
-                return data;
-            } catch (error) {
-                console.error('Failed to fetch JSON:', error);
-            }
-        }
-
         function addElement(className, parent) {
             const element = document.createElement(className);
             if (parent) {
@@ -101,7 +86,7 @@
                 return Promise.resolve(fetchedData);
             }
 
-            const url = '/p2beta.json';
+            const url = './p2beta.json';
 
             return fetch(url)
                 .then(response => response.json())
