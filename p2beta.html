@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2 beta catalogue</title>
+
+    <style>
+        table, th, td {
+            padding: 4px;
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let fetchedData;
+
+        async function fetchJsonData(url) {
+            try {
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Failed to fetch JSON:', error);
+            }
+        }
+
+        function addElement(className, parent) {
+            const element = document.createElement(className);
+            if (parent) {
+                parent.appendChild(element);
+            } else {
+                document.body.appendChild(element);
+            }
+            return element;
+        }
+
+        function headerText(text, size) {
+            if (!size) {
+                size = 1;
+            }
+            const element = addElement('h' + size);
+            element.innerText = text;
+        }
+
+        function paragraphText(text) {
+            const element = addElement('p');
+            element.innerText = text;
+        }
+
+        function divider() {
+            addElement('hr');
+        }
+        
+        function list(array) {
+            if (!array) {
+                return;
+            }
+
+            const listElement = addElement('ul');
+
+            array.forEach(text => {
+                const listItem = addElement('li', listElement);
+                listItem.innerText = text;
+            });
+        }
+
+        function navbar(links) {
+            const navbarTable = addElement("table");
+            navbarTable.align = "center";
+            navbarTable.width = "100%"
+            const navbarTableHeader = addElement("thead", navbarTable);
+            const navbarTableRow = addElement("tr", navbarTableHeader);
+            const navbarTableBody = addElement("tbody", navbarTable);
+            const tableRow = addElement('tr', navbarTableBody);
+            links.forEach(link => {
+                const div = addElement("div", addElement("td", tableRow))
+                div.style = "text-align: center";
+                const anchor = addElement("a", div)
+                anchor.innerText = link.display;
+                anchor.href = window.location.pathname + window.location.hash + link.query;
+            });
+        }
+
+        function fetchData() {
+            if (fetchedData) {
+                return Promise.resolve(fetchedData);
+            }
+
+            const url = '/p2beta.json';
+
+            return fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    fetchedData = data;
+                    return fetchedData;
+                })
+                .catch(error => {
+                    console.error("Failed to fetch data:", error);
+                });
+        }
+
+        function getVersionData() {
+            if (fetchedData) {
+                return fetchedData.versions;
+            }
+
+            console.error("CANNOT FIND FETCHED DATA");
+        }
+
+        function getAreaData(selectedArea) {
+            if (fetchedData) {
+                return fetchedData.areas[selectedArea];
+            }
+            
+            console.error("CANNOT FIND FETCHED DATA");
+        }
+
+        function showVersion(selectedVersion) {
+            const betas = getVersionData(selectedVersion);
+
+            const versionData = betas[selectedVersion];
+
+            if (!versionData) {
+                return headerText("404 Beta version not found")
+            }
+
+            let links = [];
+            Object.entries(betas).forEach((beta, idx) => {
+                links.push({
+                    "query": "?beta=" + beta[0],
+                    "display": beta[1].date + " (" + beta[1].depot + ")"
+                })
+            });
+            headerText("Portal 2 beta info catalogue", 3);
+            navbar(links);
+
+            headerText(versionData.date + " (" + versionData.depot + ")", 1);
+            paragraphText("Era: " + versionData.era);
+
+            paragraphText("Notable about this version:");
+            list(versionData.notable);
+
+            paragraphText("Fixes to get this build running:");
+            list(versionData.fixes);
+
+            paragraphText(versionData.description);
+
+            divider();
+            headerText("Maps", 2);
+
+            versionData.maps.forEach(category => {
+                headerText(category.category, 3);
+                const mapTable = addElement("table");
+                const mapTableHeader = addElement("thead", mapTable);
+                const mapTableRow = addElement("tr", mapTableHeader);
+                addElement("th", mapTableRow).innerText = "Filename";
+                addElement("th", mapTableRow).innerText = "Description";
+                addElement("th", mapTableRow).innerText = "Featured area(s)";
+                addElement("th", mapTableRow).innerText = "Successor(s)";
+
+                const mapTableBody = addElement("tbody", mapTable);
+                category.maps.forEach(map => {
+                    const tableRow = addElement('tr', mapTableBody);
+                    addElement("td", tableRow).innerText = map.filename;
+                    addElement("td", tableRow).innerText = map.description;
+                    areaColumn = addElement("td", tableRow);
+                    if (map.areas) {
+                        map.areas.split(", ").forEach((areaId) => {
+                            const area = addElement("a", areaColumn);
+                            let areaData = getAreaData(areaId);
+
+                            if (!areaData) {
+                                console.warn("INVALID AREA REFERENCED", areaId);
+                                return;
+                            }
+
+                            const areaName = areaData.name;
+                            area.innerText = areaName;
+                            area.href = window.location.pathname + window.location.hash + "?area=" + areaId;
+                            addElement("br", areaColumn);
+                        });
+                    }
+                    addElement("td", tableRow).innerText = (map.successors || "").replaceAll(", ", ",\n");
+                });
+            });
+        }
+
+        function showArea(selectedArea) {
+            const areaData = getAreaData(selectedArea);
+            if (!areaData) {
+                return headerText("404 Area not found")
+            }
+
+            headerText(areaData.name);
+            paragraphText("Area type: " + areaData.type);
+            paragraphText(areaData.description);
+
+            divider();
+            headerText("Changelog", 2);
+
+            const changelogTable = addElement("table");
+            const changelogTableHeader = addElement("thead", changelogTable);
+            const changelogTableRow = addElement("tr", changelogTableHeader);
+            addElement("th", changelogTableRow).innerText = "Version";
+            addElement("th", changelogTableRow).innerText = "Changes";
+
+            const changelogTableBody = addElement("tbody", changelogTable);
+            areaData.changelog.forEach(change => {
+                const tableRow = addElement('tr', changelogTableBody);
+                const version = addElement("a", addElement("td", tableRow))
+                version.innerText = change.version;
+                version.href = window.location.pathname + window.location.hash + "?beta=" + change.version;
+                addElement("td", tableRow).innerText = change.change;
+            });
+        }
+
+
+
+        const urlParams = new URLSearchParams(window.location.search);
+
+        let selectedVersion = "";
+        let selectedArea = "";
+
+        const type = urlParams.get('type');
+        if (type == "beta" || type == "version") {
+            selectedVersion = urlParams.get("id");
+        }
+        else if (type == "area") {
+            selectedArea = urlParams.get("id");
+        }
+        else {
+            selectedVersion = urlParams.get("beta") || urlParams.get("version");
+            if (!selectedVersion) {
+                selectedArea = urlParams.get("area");
+            }
+        }
+
+        if (!selectedVersion && !selectedArea) {
+            selectedVersion = "852_0_July_28_2009";
+        }
+
+        fetchData().then(() => {
+            if (selectedVersion) {
+                showVersion(selectedVersion);
+            } else {
+                showArea(selectedArea);
+            }
+        })
+    </script>
+</body>
+</html>
