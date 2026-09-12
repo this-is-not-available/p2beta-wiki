@@ -80,7 +80,7 @@
                             "filename": "p2_lab_start_02.bsp"
                         },
                         {
-                            "description": "Various Pneumatic Diversity Vent including turrets and hover turrets. Rat!??",
+                            "description": "Various Pneumatic Diversity Vent puzzles including turrets and hover turrets. Rat!??",
                             "filename": "p2_lab_suctionturrets_1.bsp",
                             "successors": "sp_suction_turrets",
                             "areas": "suction_turrets"
@@ -447,7 +447,7 @@
             "depot": "841_0",
             "date": "February 4th 2010",
             "era": "Early GameInformer",
-            "description": "",
+            "description": "Chambers end in survey",
             "notable": ["Paintgun"],
             "maps": [
                 {
@@ -535,40 +535,48 @@
                         },
                         {
                             "filename": "sp_intro_01.bsp",
-                            "description": "Container ride no actual container ride iirc",
+                            "description": "Just container ride with no actual container ride. Toilet has sewage.",
                             "areas": "container_ride"
                         },
                         {
                             "filename": "sp_intro_02.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "portal_carousel"
                         },
                         {
                             "filename": "sp_intro_03.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "portal_gun"
                         },
                         {
                             "filename": "sp_intro_04.bsp",
-                            "description": ""
+                            "description": "First chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
                         },
                         {
                             "filename": "sp_intro_05.bsp",
-                            "description": ""
+                            "description": "Second chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
                         },
                         {
                             "filename": "sp_intro_06.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "secret_panel"
                         },
                         {
                             "filename": "sp_intro_07.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "filename": "sp_intro_08.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "filename": "sp_intro_09.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "sp_laserfield_intro.bsp",
@@ -930,7 +938,8 @@
                         },
                         {
                             "filename": "sp_tube_vista.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "tube_vista"
                         },
                         {
                             "filename": "sp_turret_blocker_intro.bsp",
@@ -1183,7 +1192,8 @@
                         },
                         {
                             "filename": "pressdemo_01.bsp",
-                            "description": "P1 chamber 04"
+                            "description": "",
+                            "areas": "p1_chamber_04"
                         },
                         {
                             "filename": "pressdemo_02.bsp",
@@ -1225,19 +1235,22 @@
                         },
                         {
                             "filename": "styleguide_destruction_1.bsp",
-                            "description": "P1 chamber 13 destruction"
+                            "description": "P1 chamber 13 destruction",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "filename": "styleguide_foliage01.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_foliage02.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_offices_1.bsp",
-                            "description": "Office styleguide map 1"
+                            "description": "Office styleguide map"
                         }
                     ]
                 },
@@ -2776,15 +2789,18 @@
                         },
                         {
                             "filename": "sp_intro_07.bsp",
-                            "description": "Portal 1 chamber 10"
+                            "description": "",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "filename": "sp_intro_08.bsp",
-                            "description": "Portal 1 chamber 09"
+                            "description": "",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "filename": "sp_intro_09.bsp",
-                            "description": "Portal 1 chamber 12"
+                            "description": "",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "sp_laserfield_intro.bsp",
@@ -3040,7 +3056,8 @@
                         },
                         {
                             "filename": "sp_proto_sphere_intro.bsp",
-                            "description": "Wakeup 3D skybox and destroyed Portal 1 Chamber 13"
+                            "description": "Wakeup 3D skybox and destroyed Portal 1 Chamber 13",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "filename": "sp_proto_sphere_reroute.bsp",
@@ -3285,7 +3302,8 @@
                         },
                         {
                             "filename": "sp_tube_vista.bsp",
-                            "description": "Tube Vista with many tubes and a scanner"
+                            "description": "",
+                            "areas": "tube_vista"
                         },
                         {
                             "filename": "sp_turret_blocker_intro.bsp",
@@ -3863,7 +3881,8 @@
                         },
                         {
                             "filename": "styleguide_destruction_1.bsp",
-                            "description": "P1 chamber 13 destruction"
+                            "description": "P1 chamber 13 destruction",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "filename": "styleguide_dome_01.bsp",
@@ -3871,15 +3890,18 @@
                         },
                         {
                             "filename": "styleguide_foliage01.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_foliage02.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_lush_foliage01.bsp",
-                            "description": "Still chamber 12, very different though?"
+                            "description": "Still chamber 12, very different though?",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_offices_1.bsp",
@@ -3967,7 +3989,8 @@
             "date": "September 24th 2010",
             "era": "idk",
             "description": "",
-            "notable": ["SFM session files", "Weird file structure"]
+            "notable": ["SFM session files", "Weird file structure"],
+            "fixes": ["portal2/hl2.exe -game portal2 -tempcontent -console"]
         },
         "841_2_September_26_2010": {
             "depot": "841_2",
