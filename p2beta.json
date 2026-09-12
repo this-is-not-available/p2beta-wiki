@@ -1451,6 +1451,7 @@
             "era": "GameInformer",
             "description": "",
             "notable": ["Last version on depot 852 with leftover Portal 1 maps probably"],
+            "fixes": ["hl2.exe -game portal2 -tempcontent", "Copy over portal2_tempcontent from 852_2 and 841_0 to this build"],
             "maps": [
                 {
                     "category": "Portal 2 Singleplayer",
@@ -1567,40 +1568,48 @@
                         },
                         {
                             "filename": "sp_intro_01.bsp",
-                            "description": "",
+                            "description": "Just container ride with no actual container ride. Toilet doesn't have sewage.",
                             "areas": "container_ride"
                         },
                         {
                             "filename": "sp_intro_02.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "portal_carousel"
                         },
                         {
                             "filename": "sp_intro_03.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "portal_gun"
                         },
                         {
                             "filename": "sp_intro_04.bsp",
-                            "description": ""
+                            "description": "First chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
                         },
                         {
                             "filename": "sp_intro_05.bsp",
-                            "description": ""
+                            "description": "Second chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
                         },
                         {
                             "filename": "sp_intro_06.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "secret_panel"
                         },
                         {
                             "filename": "sp_intro_07.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_10"
                         },
                         {
                             "filename": "sp_intro_08.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_09"
                         },
                         {
                             "filename": "sp_intro_09.bsp",
-                            "description": ""
+                            "description": "",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "sp_laserfield_intro.bsp",
@@ -1981,7 +1990,8 @@
                         },
                         {
                             "filename": "sp_tube_vista.bsp",
-                            "description": "Tube Vista with many tubes and a scanner"
+                            "description": "",
+                            "areas": "tube_vista"
                         },
                         {
                             "filename": "sp_turret_blocker_intro.bsp",
@@ -2372,31 +2382,35 @@
                         },
                         {
                             "filename": "styleguide_destruction_1.bsp",
-                            "description": "P1 chamber 13 destruction"
+                            "description": "P1 chamber 13 destruction",
+                            "areas": "p1_chamber_13"
                         },
                         {
                             "filename": "styleguide_foliage01.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_foliage02.bsp",
-                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above"
+                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_lush_foliage01.bsp",
-                            "description": "Still chamber 12, very different though?"
+                            "description": "Still chamber 12, very different though?",
+                            "areas": "p1_chamber_12"
                         },
                         {
                             "filename": "styleguide_offices_1.bsp",
-                            "description": "Office styleguide map 1"
+                            "description": "Office styleguide map"
                         },
                         {
                             "filename": "world_animation_zoo.bsp",
-                            "description": ""
+                            "description": "Zoo of panel animations/panel animation test map"
                         },
                         {
                             "filename": "world_animation_zoo_simple.bsp",
-                            "description": "Zoo of panel animations/panel animation test map"
+                            "description": "Single panel animation test"
                         },
                         {
                             "filename": "zoo_foliage_01.bsp",
