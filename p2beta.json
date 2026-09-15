@@ -42,10 +42,10 @@
                             "filename": "p2_lab_hub_6.bsp"
                         },
                         {
-                            "description": "Includes early versions of Dual Lasers, Laser Stairs, Laser Relays, Laser vs. Turret, Laser over Goo and an apparently scrapped puzzle.",
+                            "description": "Includes early versions of Redirection Intro, Dual Lasers, Laser Stairs, Laser Relays, Laser vs. Turret, Laser over Goo and an apparently scrapped puzzle (2 lasers, the bts room where you retrieve a redirection cube).",
                             "filename": "p2_lab_lasers_1.bsp",
-                            "successors": "sp_dual_laser, sp_laser_stairs, sp_tube_vista, sp_laser_relays, sp_laser_vs_turret_intro, sp_laser_over_goo, sp_tube_blockage",
-                            "areas": "dual_laser, laser_stairs, tube_vista, laser_relays, laser_vs_turret, laser_over_goo, tube_blockage"
+                            "successors": "sp_laser_intro, sp_dual_laser, sp_laser_stairs, sp_tube_vista, sp_laser_relays, sp_laser_vs_turret_intro, sp_laser_over_goo, sp_tube_blockage",
+                            "areas": "redirection_intro, dual_laser, laser_stairs, tube_vista, laser_relays, laser_vs_turret, laser_over_goo, tube_blockage"
                         },
                         {
                             "description": "Includes early version of Catapult Course (puzzle), Stop the Box, Box over Goo, Catapult over Tower, Rocket turret, Ring around the Turrets, Turret Tower, Unnamed Hover turret Puzzle, P1 Chamber 11 Hover turret Puzzle and broken TFV puzzle. Features retrieving the course's personality sphere.",
@@ -590,8 +590,8 @@
                         },
                         {
                             "filename": "sp_laser_intro.bsp",
-                            "description": "Laser introduction map? Features Dual Lasers",
-                            "areas": "dual_laser"
+                            "description": "Laser introduction map? Features Redirection Intro and Dual Lasers",
+                            "areas": "redirection_intro, dual_laser"
                         },
                         {
                             "filename": "sp_laser_over_goo.bsp",
@@ -1628,8 +1628,8 @@
                         },
                         {
                             "filename": "sp_laser_intro.bsp",
-                            "description": "Laser introduction map? Features Dual Lasers",
-                            "areas": "dual_laser"
+                            "description": "Laser introduction map? Features Redirection Intro and Dual Lasers",
+                            "areas": "redirection_intro, dual_laser"
                         },
                         {
                             "filename": "sp_laser_over_goo.bsp",
@@ -2838,8 +2838,8 @@
                         },
                         {
                             "filename": "sp_laser_intro.bsp",
-                            "description": "Laser introduction map? Features Dual Lasers",
-                            "areas": "dual_laser"
+                            "description": "Laser introduction map? Features Redirection Intro and Dual Lasers",
+                            "areas": "redirection_intro, dual_laser"
                         },
                         {
                             "filename": "sp_laser_lift_pit_flings.bsp",
@@ -4256,8 +4256,8 @@
                         },
                         {
                             "filename": "sp_laser_intro.bsp",
-                            "description": "Laser introduction map? Features Dual Lasers",
-                            "areas": "dual_laser"
+                            "description": "Laser introduction map? Features Redirection Intro and Dual Lasers",
+                            "areas": "redirection_intro, dual_laser"
                         },
                         {
                             "filename": "sp_laser_lift_pit_flings.bsp",
@@ -5947,6 +5947,11 @@
                     "change": "Added, appears in p2_lab_lasers_1"
                 }
             ]
+        },
+        "redirection_intro": {
+            "name": "Redirection Intro",
+            "description": "Laser pointed at receptacle, blocked by redirection cube.",
+            "type": "Puzzle"
         },
         "dual_laser": {
             "name": "Dual Laser",
