@@ -3150,7 +3150,7 @@
                         {
                             "filename": "sp_sabotage_jailbreak.bsp",
                             "description": "",
-                            "areas": "jailbreak"
+                            "areas": "jailbreak, escape"
                         },
                         {
                             "filename": "sp_sabotage_offices.bsp",
@@ -3396,8 +3396,8 @@
                         },
                         {
                             "filename": "sp_under_potatos.bsp",
-                            "description": "",
-                            "areas": "conversion_intro, potatos"
+                            "description": "Conversion Intro with PotatOS in the ditch",
+                            "areas": "conversion_intro"
                         },
                         {
                             "filename": "sp_under_speed_flings.bsp",
@@ -3996,7 +3996,1526 @@
             "depot": "852_3",
             "date": "August 30th 2010",
             "era": "idk",
-            "description": ""
+            "description": "Map documentation copied from 852_2 and needs to be verified",
+            "fixes": ["portal2/hl2.exe -game portal2 -tempcontent -console"],
+            "maps": [
+                {
+                    "category": "Portal 2 Singleplayer",
+                    "maps": [
+                        {
+                            "filename": "sp_angled_bridge.bsp",
+                            "description": "",
+                            "areas": "angled_bridge"
+                        },
+                        {
+                            "filename": "sp_assisted_angle_fling.bsp",
+                            "description": "",
+                            "areas": "assisted_angle_fling"
+                        },
+                        {
+                            "filename": "sp_box_goalie.bsp",
+                            "description": "",
+                            "areas": "cube_momentum"
+                        },
+                        {
+                            "filename": "sp_box_over_goo.bsp",
+                            "description": "",
+                            "areas": "box_over_goo"
+                        },
+                        {
+                            "filename": "sp_bridge_climb.bsp",
+                            "description": "",
+                            "areas": "bridge_climb"
+                        },
+                        {
+                            "filename": "sp_bridge_intro.bsp",
+                            "description": "",
+                            "areas": "bridge_intro"
+                        },
+                        {
+                            "filename": "sp_bridge_laser.bsp",
+                            "description": "",
+                            "areas": "bridge_laser"
+                        },
+                        {
+                            "filename": "sp_bridge_the_gap.bsp",
+                            "description": "",
+                            "areas": "bridge_the_gap"
+                        },
+                        {
+                            "filename": "sp_bts_suction.bsp",
+                            "description": "*Crashes*",
+                            "areas": "bts_suction"
+                        },
+                        {
+                            "filename": "sp_building_the_floor.bsp",
+                            "description": "",
+                            "areas": "building_the_floor"
+                        },
+                        {
+                            "filename": "sp_catapult_box_smuggle.bsp",
+                            "description": "",
+                            "areas": "catapult_box_smuggle"
+                        },
+                        {
+                            "filename": "sp_catapult_course.bsp",
+                            "description": "",
+                            "areas": "catapult_course"
+                        },
+                        {
+                            "filename": "sp_catapult_fling_intro.bsp",
+                            "description": "",
+                            "areas": "catapult_fling_intro"
+                        },
+                        {
+                            "filename": "sp_catapult_fling_sphere_peek.bsp",
+                            "description": "",
+                            "areas": "ceiling_catapult"
+                        },
+                        {
+                            "filename": "sp_catapult_intro.bsp",
+                            "description": "",
+                            "areas": "catapult_intro"
+                        },
+                        {
+                            "filename": "sp_catapult_laser_flings.bsp",
+                            "description": "",
+                            "areas": "catapult_laser_flings"
+                        },
+                        {
+                            "filename": "sp_catapult_laser_ricochet.bsp",
+                            "description": "",
+                            "areas": "ricochet"
+                        },
+                        {
+                            "filename": "sp_catapult_multifling.bsp",
+                            "description": "",
+                            "areas": "catapult_multifling"
+                        },
+                        {
+                            "filename": "sp_catapult_over_tower.bsp",
+                            "description": "",
+                            "areas": "catapult_over_tower"
+                        },
+                        {
+                            "filename": "sp_checkpoint_intro.bsp",
+                            "description": "",
+                            "areas": "checkpoint_intro"
+                        },
+                        {
+                            "filename": "sp_climb_for_los.bsp",
+                            "description": "",
+                            "areas": "climb_for_los"
+                        },
+                        {
+                            "filename": "sp_colo_box_thief.bsp",
+                            "description": "Catapult Intro, but slightly more complicated?"
+                        },
+                        {
+                            "filename": "sp_colo_box_thief_vert.bsp",
+                            "description": "Vertical crushers?"
+                        },
+                        {
+                            "filename": "sp_colo_tbeam_paint.bsp",
+                            "description": "The map seen in some promotional material, blue gel, funnel, turrets, clean, bts, yeah that one"
+                        },
+                        {
+                            "filename": "sp_column_blocker.bsp",
+                            "description": "",
+                            "areas": "column_blocker"
+                        },
+                        {
+                            "filename": "sp_crusher_intro.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "sp_destroyed_still_alive.bsp",
+                            "description": "",
+                            "areas": "destroyed_still_alive"
+                        },
+                        {
+                            "filename": "sp_dual_laser.bsp",
+                            "description": "",
+                            "areas": "dual_laser"
+                        },
+                        {
+                            "filename": "sp_escape_catapult.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "sp_escape_paint_portal.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "sp_escape_paint_speed_tbeam.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "sp_fizzler_training.bsp",
+                            "description": "",
+                            "areas": "fizzler_intro"
+                        },
+                        {
+                            "filename": "sp_flings.bsp",
+                            "description": "",
+                            "areas": "flings"
+                        },
+                        {
+                            "filename": "sp_fling_training.bsp",
+                            "description": "",
+                            "areas": "future_starter"
+                        },
+                        {
+                            "filename": "sp_glados_01.bsp",
+                            "description": "",
+                            "areas": "wakeup"
+                        },
+                        {
+                            "filename": "sp_hole_in_the_sky.bsp",
+                            "description": "",
+                            "areas": "hole_in_the_sky"
+                        },
+                        {
+                            "filename": "sp_incinerator_01.bsp",
+                            "description": "",
+                            "areas": "incinerator"
+                        },
+                        {
+                            "filename": "sp_intro_01.bsp",
+                            "description": "",
+                            "areas": "container_ride"
+                        },
+                        {
+                            "filename": "sp_intro_01_destroyed.bsp",
+                            "description": "",
+                            "areas": "container_ride"
+                        },
+                        {
+                            "filename": "sp_intro_02.bsp",
+                            "description": "",
+                            "areas": "portal_carousel"
+                        },
+                        {
+                            "filename": "sp_intro_03.bsp",
+                            "description": "",
+                            "areas": "portal_gun"
+                        },
+                        {
+                            "filename": "sp_intro_04.bsp",
+                            "description": "First chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
+                        },
+                        {
+                            "filename": "sp_intro_05.bsp",
+                            "description": "Second chamber of Smooth Jazz",
+                            "areas": "smooth_jazz"
+                        },
+                        {
+                            "filename": "sp_intro_06.bsp",
+                            "description": "",
+                            "areas": "secret_panel"
+                        },
+                        {
+                            "filename": "sp_intro_07.bsp",
+                            "description": "",
+                            "areas": "p1_chamber_10"
+                        },
+                        {
+                            "filename": "sp_intro_08.bsp",
+                            "description": "",
+                            "areas": "p1_chamber_09"
+                        },
+                        {
+                            "filename": "sp_intro_09.bsp",
+                            "description": "",
+                            "areas": "p1_chamber_12"
+                        },
+                        {
+                            "filename": "sp_laserfield_intro.bsp",
+                            "description": "",
+                            "areas": "laserfield_intro"
+                        },
+                        {
+                            "filename": "sp_laser_bridge_catapult.bsp",
+                            "description": "No lasers nor bridges nor catapults? Only fizzlers"
+                        },
+                        {
+                            "filename": "sp_laser_bridge_platform.bsp",
+                            "description": "",
+                            "areas": "laser_platform"
+                        },
+                        {
+                            "filename": "sp_laser_chaining.bsp",
+                            "description": "",
+                            "areas": "laser_chaining"
+                        },
+                        {
+                            "filename": "sp_laser_dual_lasers.bsp",
+                            "description": "",
+                            "areas": "dual_laser"
+                        },
+                        {
+                            "filename": "sp_laser_intro.bsp",
+                            "description": "Laser introduction map? Features Dual Lasers",
+                            "areas": "dual_laser"
+                        },
+                        {
+                            "filename": "sp_laser_lift_pit_flings.bsp",
+                            "description": "",
+                            "areas": "pit_flings"
+                        },
+                        {
+                            "filename": "sp_laser_over_goo.bsp",
+                            "description": "",
+                            "areas": "laser_over_goo"
+                        },
+                        {
+                            "filename": "sp_laser_powered_lift.bsp",
+                            "description": "Pit Flings without the Pit Flings"
+                        },
+                        {
+                            "filename": "sp_laser_power_bridge.bsp",
+                            "description": "",
+                            "areas": "laser_power_bridge"
+                        },
+                        {
+                            "filename": "sp_laser_redirect_intro.bsp",
+                            "description": "",
+                            "areas": "laser_intro"
+                        },
+                        {
+                            "filename": "sp_laser_relays.bsp",
+                            "description": "",
+                            "areas": "laser_relays"
+                        },
+                        {
+                            "filename": "sp_laser_relay_bridges.bsp",
+                            "description": "",
+                            "areas": "laser_relay_bridges"
+                        },
+                        {
+                            "filename": "sp_laser_stairs.bsp",
+                            "description": "",
+                            "areas": "laser_stairs"
+                        },
+                        {
+                            "filename": "sp_laser_vs_turret_intro.bsp",
+                            "description": "",
+                            "areas": "laser_vs_turret"
+                        },
+                        {
+                            "filename": "sp_mad_cabin.bsp",
+                            "description": "TARDIS, Mad Cabin, idk man"
+                        },
+                        {
+                            "filename": "sp_paint_box_slime_hop.bsp",
+                            "description": "",
+                            "areas": "box_slime_hop"
+                        },
+                        {
+                            "filename": "sp_paint_bridges.bsp",
+                            "description": "",
+                            "areas": "paint_bridges"
+                        },
+                        {
+                            "filename": "sp_paint_jump_angled_fling.bsp",
+                            "description": "",
+                            "areas": "jump_angled_fling"
+                        },
+                        {
+                            "filename": "sp_paint_jump_artillery.bsp",
+                            "description": "",
+                            "areas": "jump_artillery"
+                        },
+                        {
+                            "filename": "sp_paint_jump_bomb_flings.bsp",
+                            "description": "Beta Bomb Flings",
+                            "areas": "bomb_flings"
+                        },
+                        {
+                            "filename": "sp_paint_jump_clean_box.bsp",
+                            "description": "",
+                            "areas": "clean_box"
+                        },
+                        {
+                            "filename": "sp_paint_jump_crazy_box.bsp",
+                            "description": "Beta Crazy Box (not underground)",
+                            "areas": "crazy_box"
+                        },
+                        {
+                            "filename": "sp_paint_jump_flings.bsp",
+                            "description": "",
+                            "areas": "jump_flings"
+                        },
+                        {
+                            "filename": "sp_paint_jump_intro.bsp",
+                            "description": "Beta Repulsion Intro (not underground)",
+                            "areas": "jump_intro"
+                        },
+                        {
+                            "filename": "sp_paint_jump_pinball.bsp",
+                            "description": "",
+                            "areas": "jump_pinball"
+                        },
+                        {
+                            "filename": "sp_paint_jump_redirect_bomb.bsp",
+                            "description": "",
+                            "areas": "jump_redirect_bomb"
+                        },
+                        {
+                            "filename": "sp_paint_jump_spiral_jumps.bsp",
+                            "description": "",
+                            "areas": "jump_spiral_jumps"
+                        },
+                        {
+                            "filename": "sp_paint_jump_tbeam.bsp",
+                            "description": "",
+                            "areas": "jump_tbeam"
+                        },
+                        {
+                            "filename": "sp_paint_jump_tbeam_polarity.bsp",
+                            "description": "Beta Repulsion Polarity",
+                            "areas": "jump_polarity"
+                        },
+                        {
+                            "filename": "sp_paint_jump_trampoline_intro.bsp",
+                            "description": "",
+                            "areas": "trampoline_intro"
+                        },
+                        {
+                            "filename": "sp_paint_jump_wall_jumps.bsp",
+                            "description": "",
+                            "areas": "wall_jumps"
+                        },
+                        {
+                            "filename": "sp_paint_jump_wall_jumps_gap.bsp",
+                            "description": "",
+                            "areas": "wall_jumps_gap"
+                        },
+                        {
+                            "filename": "sp_paint_portal_jump.bsp",
+                            "description": "",
+                            "areas": "portal_jump"
+                        },
+                        {
+                            "filename": "sp_paint_portal_lasers.bsp",
+                            "description": "",
+                            "areas": "portal_lasers"
+                        },
+                        {
+                            "filename": "sp_paint_portal_placement.bsp",
+                            "description": "",
+                            "areas": "portal_placement"
+                        },
+                        {
+                            "filename": "sp_paint_portal_tbeams.bsp",
+                            "description": "",
+                            "areas": "portal_tbeams"
+                        },
+                        {
+                            "filename": "sp_paint_speed_flings.bsp",
+                            "description": "",
+                            "areas": "speed_flings"
+                        },
+                        {
+                            "filename": "sp_paint_speed_intro.bsp",
+                            "description": "",
+                            "areas": "speed_intro"
+                        },
+                        {
+                            "filename": "sp_paint_speed_racer.bsp",
+                            "description": "",
+                            "areas": "speed_racer"
+                        },
+                        {
+                            "filename": "sp_paint_speed_ramp.bsp",
+                            "description": "",
+                            "areas": "speed_ramp"
+                        },
+                        {
+                            "filename": "sp_paint_speed_rocket.bsp",
+                            "description": "",
+                            "areas": "speed_rocket"
+                        },
+                        {
+                            "filename": "sp_paint_speed_tb_catch.bsp",
+                            "description": "",
+                            "areas": "speed_tb_catch"
+                        },
+                        {
+                            "filename": "sp_paint_stick_awesome.bsp",
+                            "description": "",
+                            "areas": "stick_awesome"
+                        },
+                        {
+                            "filename": "sp_paint_stick_catapult.bsp",
+                            "description": "",
+                            "areas": "stick_catapult"
+                        },
+                        {
+                            "filename": "sp_paint_stick_climber.bsp",
+                            "description": "",
+                            "areas": "stick_climber"
+                        },
+                        {
+                            "filename": "sp_paint_stick_cube_painting.bsp",
+                            "description": "",
+                            "areas": "stick_cube_painting"
+                        },
+                        {
+                            "filename": "sp_paint_stick_fling.bsp",
+                            "description": "",
+                            "areas": "stick_fling"
+                        },
+                        {
+                            "filename": "sp_paint_stick_goo.bsp",
+                            "description": "",
+                            "areas": "stick_goo"
+                        },
+                        {
+                            "filename": "sp_paint_stick_intro.bsp",
+                            "description": "",
+                            "areas": "stick_intro"
+                        },
+                        {
+                            "filename": "sp_paint_stick_jump_fling.bsp",
+                            "description": "",
+                            "areas": "stick_jump_fling"
+                        },
+                        {
+                            "filename": "sp_proto_sphere_escape.bsp",
+                            "description": "Weird test room with core receptacles"
+                        },
+                        {
+                            "filename": "sp_proto_sphere_intro.bsp",
+                            "description": "Wakeup 3D skybox and destroyed Portal 1 Chamber 13",
+                            "areas": "p1_chamber_13"
+                        },
+                        {
+                            "filename": "sp_proto_sphere_reroute.bsp",
+                            "description": "",
+                            "areas": "tube_blockage"
+                        },
+                        {
+                            "filename": "sp_pull_the_rug.bsp",
+                            "description": "",
+                            "areas": "pull_the_rug"
+                        },
+                        {
+                            "filename": "sp_pull_to_fling.bsp",
+                            "description": "",
+                            "areas": "pull_to_fling"
+                        },
+                        {
+                            "filename": "sp_return_intro.bsp",
+                            "description": "",
+                            "areas": "test_intro"
+                        },
+                        {
+                            "filename": "sp_richard_sphere.bsp",
+                            "description": "Richard and his obstacle course"
+                        },
+                        {
+                            "filename": "sp_ring_around_the_turrets.bsp",
+                            "description": "",
+                            "areas": "ring_around_the_turrets"
+                        },
+                        {
+                            "filename": "sp_rocket_box_trigger.bsp",
+                            "description": "",
+                            "areas": "rocket_box_trigger"
+                        },
+                        {
+                            "filename": "sp_rocket_laser_lift.bsp",
+                            "description": "",
+                            "areas": "rocket_laser_lift"
+                        },
+                        {
+                            "filename": "sp_rocket_redirect.bsp",
+                            "description": "",
+                            "areas": "rocket_redirect"
+                        },
+                        {
+                            "filename": "sp_rocket_turret.bsp",
+                            "description": "",
+                            "areas": "rocket_turret"
+                        },
+                        {
+                            "filename": "sp_rocket_turret_intro.bsp",
+                            "description": "",
+                            "areas": "rocket_turret_intro"
+                        },
+                        {
+                            "filename": "sp_sabotage_darkness.bsp",
+                            "description": "",
+                            "areas": "turret_factory"
+                        },
+                        {
+                            "filename": "sp_sabotage_factory.bsp",
+                            "description": "",
+                            "areas": "turret_sabotage"
+                        },
+                        {
+                            "filename": "sp_sabotage_glados.bsp",
+                            "description": "",
+                            "areas": "core"
+                        },
+                        {
+                            "filename": "sp_sabotage_jailbreak_01.bsp",
+                            "description": "",
+                            "areas": "jailbreak"
+                        },
+                        {
+                            "filename": "sp_sabotage_jailbreak_02.bsp",
+                            "description": "",
+                            "areas": "escape"
+                        },
+                        {
+                            "filename": "sp_sabotage_offices.bsp",
+                            "description": "",
+                            "areas": "sabotage_offices"
+                        },
+                        {
+                            "filename": "sp_sabotage_panel_sneak.bsp",
+                            "description": "",
+                            "areas": "panel_sneak"
+                        },
+                        {
+                            "filename": "sp_sabotage_toxin_destruction.bsp",
+                            "description": "",
+                            "areas": "neurotoxin_sabotage"
+                        },
+                        {
+                            "filename": "sp_sabotage_tube_ride.bsp",
+                            "description": "",
+                            "areas": "tube_ride"
+                        },
+                        {
+                            "filename": "sp_sabotage_turret_factory.bsp",
+                            "description": "",
+                            "areas": "turret_factory"
+                        },
+                        {
+                            "filename": "sp_security_intro.bsp",
+                            "description": "",
+                            "areas": "sabotage_offices"
+                        },
+                        {
+                            "filename": "sp_shoot_through_wall.bsp",
+                            "description": "",
+                            "areas": "shoot_through_wall"
+                        },
+                        {
+                            "filename": "sp_sphere_2nd_encounter.bsp",
+                            "description": "",
+                            "areas": "laser_power_bridge"
+                        },
+                        {
+                            "filename": "sp_sphere_3rd_encounter.bsp",
+                            "description": "",
+                            "areas": "tube_ride"
+                        },
+                        {
+                            "filename": "sp_sphere_intro.bsp",
+                            "description": "Core retrieval room from Core hub era?"
+                        },
+                        {
+                            "filename": "sp_sphere_wall.bsp",
+                            "description": "Core retrieval room from Core hub era? With Aquarium"
+                        },
+                        {
+                            "filename": "sp_stop_the_box.bsp",
+                            "description": "",
+                            "areas": "stop_the_box"
+                        },
+                        {
+                            "filename": "sp_suction_turrets.bsp",
+                            "description": "",
+                            "areas": "suction_turrets"
+                        },
+                        {
+                            "filename": "sp_tbeam_box_over_goo.bsp",
+                            "description": "",
+                            "areas": "tbeam_box_over_goo"
+                        },
+                        {
+                            "filename": "sp_tbeam_box_smuggle.bsp",
+                            "description": "",
+                            "areas": "tbeam_box_smuggle"
+                        },
+                        {
+                            "filename": "sp_tbeam_catch.bsp",
+                            "description": "",
+                            "areas": "tb_catch"
+                        },
+                        {
+                            "filename": "sp_tbeam_ceil_button.bsp",
+                            "description": "TODO: confirm details"
+                        },
+                        {
+                            "filename": "sp_tbeam_cut.bsp",
+                            "description": "",
+                            "areas": "tbeam_cut"
+                        },
+                        {
+                            "filename": "sp_tbeam_get_height.bsp",
+                            "description": "",
+                            "areas": "tbeam_get_height"
+                        },
+                        {
+                            "filename": "sp_tbeam_goo_ride.bsp",
+                            "description": "",
+                            "areas": "tbeam_goo_ride"
+                        },
+                        {
+                            "filename": "sp_tbeam_intro.bsp",
+                            "description": "",
+                            "areas": "funnel_intro"
+                        },
+                        {
+                            "filename": "sp_tbeam_laser_catapult.bsp",
+                            "description": "",
+                            "areas": "laser_catapult"
+                        },
+                        {
+                            "filename": "sp_tbeam_polarity.bsp",
+                            "description": "",
+                            "areas": "tb_polarity"
+                        },
+                        {
+                            "filename": "sp_tbeam_trust_drop.bsp",
+                            "description": "",
+                            "areas": "tb_trust_drop"
+                        },
+                        {
+                            "filename": "sp_tbeam_turret_towers.bsp",
+                            "description": "",
+                            "areas": "turret_towers"
+                        },
+                        {
+                            "filename": "sp_tbeam_wall_button.bsp",
+                            "description": "Cut down Wall Button?",
+                            "areas": "tb_wall_button"
+                        },
+                        {
+                            "filename": "sp_tbeam_wall_button_retrieve.bsp",
+                            "description": "Wall Button with Wheatley",
+                            "areas": "tb_wall_button"
+                        },
+                        {
+                            "filename": "sp_temp_portal_gun.bsp",
+                            "description": "Empty box for old temporary portal gun upgrade?"
+                        },
+                        {
+                            "filename": "sp_temp_sphere_1.bsp",
+                            "description": "Empty box for old temporary plot item explanation and placeholder?"
+                        },
+                        {
+                            "filename": "sp_temp_sphere_2.bsp",
+                            "description": "Empty box for old temporary plot item explanation and placeholder?"
+                        },
+                        {
+                            "filename": "sp_temp_sphere_3.bsp",
+                            "description": "Empty box for old temporary plot item explanation and placeholder?"
+                        },
+                        {
+                            "filename": "sp_temp_sphere_4.bsp",
+                            "description": "Empty box for old temporary plot item explanation and placeholder?"
+                        },
+                        {
+                            "filename": "sp_triple_laser.bsp",
+                            "description": "",
+                            "areas": "triple_laser"
+                        },
+                        {
+                            "filename": "sp_trust_fling.bsp",
+                            "description": "",
+                            "areas": "trust_fling"
+                        },
+                        {
+                            "filename": "sp_tube_blockage.bsp",
+                            "description": "",
+                            "areas": "tube_blockage"
+                        },
+                        {
+                            "filename": "sp_tube_vista.bsp",
+                            "description": "",
+                            "areas": "tube_vista"
+                        },
+                        {
+                            "filename": "sp_turret_blocker_intro.bsp",
+                            "description": "",
+                            "areas": "turret_blocker"
+                        },
+                        {
+                            "filename": "sp_turret_intro.bsp",
+                            "description": "",
+                            "areas": "old_turret_intro"
+                        },
+                        {
+                            "filename": "sp_turret_islands.bsp",
+                            "description": "",
+                            "areas": "turret_islands"
+                        },
+                        {
+                            "filename": "sp_turret_tower.bsp",
+                            "description": "",
+                            "areas": "turret_tower"
+                        },
+                        {
+                            "filename": "sp_turret_training_advanced.bsp",
+                            "description": "",
+                            "areas": "turret_intro"
+                        },
+                        {
+                            "filename": "sp_unassisted_angle_fling.bsp",
+                            "description": "",
+                            "areas": "unassisted_angle_fling"
+                        },
+                        {
+                            "filename": "sp_under_bottomless_pit.bsp",
+                            "description": "",
+                            "areas": "fall, underground"
+                        },
+                        {
+                            "filename": "sp_under_cave.bsp",
+                            "description": "no potatos, but otherwise potatos",
+                            "areas": "potatos"
+                        },
+                        {
+                            "filename": "sp_under_cave_transition_1.bsp",
+                            "description": "",
+                            "areas": "diorama"
+                        },
+                        {
+                            "filename": "sp_under_cave_transition_2.bsp",
+                            "description": "",
+                            "areas": "diorama"
+                        },
+                        {
+                            "filename": "sp_under_climb.bsp",
+                            "description": "",
+                            "areas": "three_gels"
+                        },
+                        {
+                            "filename": "sp_under_door.bsp",
+                            "description": "",
+                            "areas": "underground"
+                        },
+                        {
+                            "filename": "sp_under_jump_bomb_flings.bsp",
+                            "description": "",
+                            "areas": "bomb_flings"
+                        },
+                        {
+                            "filename": "sp_under_jump_crazy_box.bsp",
+                            "description": "Beta Crazy Box",
+                            "areas": "crazy_box"
+                        },
+                        {
+                            "filename": "sp_under_jump_intro.bsp",
+                            "description": "Beta Repulsion Intro",
+                            "areas": "jump_intro"
+                        },
+                        {
+                            "filename": "sp_under_lake.bsp",
+                            "description": "",
+                            "areas": "cave_johnson"
+                        },
+                        {
+                            "filename": "sp_under_liftshaft.bsp",
+                            "description": "",
+                            "areas": "liftshaft"
+                        },
+                        {
+                            "filename": "sp_under_portal_intro.bsp",
+                            "description": "Conversion Intro with PotatOS in the ditch",
+                            "areas": "conversion_intro"
+                        },
+                        {
+                            "filename": "sp_under_speed_flings.bsp",
+                            "description": "",
+                            "areas": "speed_flings"
+                        },
+                        {
+                            "filename": "sp_under_speed_ramp.bsp",
+                            "description": "",
+                            "areas": "speed_ramp"
+                        },
+                        {
+                            "filename": "sp_under_stick_catapult.bsp",
+                            "description": "",
+                            "areas": "stick_catapult"
+                        },
+                        {
+                            "filename": "sp_under_stick_goo.bsp",
+                            "description": "",
+                            "areas": "stick_goo"
+                        },
+                        {
+                            "filename": "sp_under_stick_intro.bsp",
+                            "description": "",
+                            "areas": "stick_intro"
+                        },
+                        {
+                            "filename": "sp_vista_placeholder.bsp",
+                            "description": "This map is beautiful. And a placeholder for something awesome"
+                        },
+                        {
+                            "filename": "sp_vista_roast_beef.bsp",
+                            "description": "\"part of an early plot where glados would get jealous of the player hanging out with other cores instead of her. so she prepared a roast beef dinner for you, but when you arrive it's ice cold\""
+                        },
+                        {
+                            "filename": "sp_wheatley_betrayal.bsp",
+                            "description": "",
+                            "areas": "finale_1"
+                        },
+                        {
+                            "filename": "sp_wheatley_bts_1.bsp",
+                            "description": "",
+                            "areas": "finale_2"
+                        },
+                        {
+                            "filename": "sp_wheatley_bts_2.bsp",
+                            "description": "End of Finale 2",
+                            "areas": "finale_2"
+                        },
+                        {
+                            "filename": "sp_wheatley_chamber.bsp",
+                            "description": "Early bomb room from Finale 3 and Wheatley boss fight",
+                            "areas": "finale_3, finale_4"
+                        }
+                    ]
+                },
+                {
+                    "category": "Portal 2 Multiplayer",
+                    "maps": [
+                        {
+                            "filename": "mp_box_test.bsp",
+                            "description": "mp_box_test"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_bridges.bsp",
+                            "description": "mp_coop_2guns_bridges"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_bridges2.bsp",
+                            "description": "mp_coop_2guns_bridges2"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_bridge_jump.bsp",
+                            "description": "mp_coop_2guns_bridge_jump"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_bridge_stick.bsp",
+                            "description": "mp_coop_2guns_bridge_stick"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_flingstick.bsp",
+                            "description": "mp_coop_2guns_flingstick"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_guardian.bsp",
+                            "description": "mp_coop_2guns_guardian"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_intro.bsp",
+                            "description": "mp_coop_2guns_intro"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_longjumps.bsp",
+                            "description": "mp_coop_2guns_longjumps"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_longjump_intro.bsp",
+                            "description": "mp_coop_2guns_longjump_intro"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_swap.bsp",
+                            "description": "mp_coop_2guns_swap"
+                        },
+                        {
+                            "filename": "mp_coop_2guns_walljumps.bsp",
+                            "description": "mp_coop_2guns_walljumps"
+                        },
+                        {
+                            "filename": "mp_coop_animation_test.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_button_tower.bsp",
+                            "description": "mp_coop_button_tower"
+                        },
+                        {
+                            "filename": "mp_coop_catapult_1.bsp",
+                            "description": "mp_coop_catapult_1"
+                        },
+                        {
+                            "filename": "mp_coop_catapult_1_sfm.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_catapult_2.bsp",
+                            "description": "mp_coop_catapult_2"
+                        },
+                        {
+                            "filename": "mp_coop_catapult_wall_intro.bsp",
+                            "description": "mp_coop_catapult_wall_intro"
+                        },
+                        {
+                            "filename": "mp_coop_come_along.bsp",
+                            "description": "mp_coop_come_along"
+                        },
+                        {
+                            "filename": "mp_coop_crusher.bsp",
+                            "description": "mp_coop_crusher"
+                        },
+                        {
+                            "filename": "mp_coop_doors.bsp",
+                            "description": "mp_coop_doors"
+                        },
+                        {
+                            "filename": "mp_coop_double_catch.bsp",
+                            "description": "mp_coop_double_catch"
+                        },
+                        {
+                            "filename": "mp_coop_dueling_tbeams.bsp",
+                            "description": "mp_coop_dueling_tbeams"
+                        },
+                        {
+                            "filename": "mp_coop_fan.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_fling_1.bsp",
+                            "description": "mp_coop_fling_1"
+                        },
+                        {
+                            "filename": "mp_coop_fling_3.bsp",
+                            "description": "mp_coop_fling_3"
+                        },
+                        {
+                            "filename": "mp_coop_fling_crushers.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_fling_train.bsp",
+                            "description": "mp_coop_fling_train"
+                        },
+                        {
+                            "filename": "mp_coop_fling_train_sfm.bsp",
+                            "description": "mp_coop_fling_train_sfm"
+                        },
+                        {
+                            "filename": "mp_coop_hub_temp.bsp",
+                            "description": "mp_coop_hub_temp"
+                        },
+                        {
+                            "filename": "mp_coop_infinifling_train.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_laser_1.bsp",
+                            "description": "mp_coop_laser_1"
+                        },
+                        {
+                            "filename": "mp_coop_laser_2.bsp",
+                            "description": "mp_coop_laser_2"
+                        },
+                        {
+                            "filename": "mp_coop_laser_3.bsp",
+                            "description": "mp_coop_laser_3"
+                        },
+                        {
+                            "filename": "mp_coop_laser_bypass.bsp",
+                            "description": "mp_coop_laser_bypass"
+                        },
+                        {
+                            "filename": "mp_coop_laser_crusher.bsp",
+                            "description": "mp_coop_laser_crusher"
+                        },
+                        {
+                            "filename": "mp_coop_laser_redirect.bsp",
+                            "description": "mp_coop_laser_redirect"
+                        },
+                        {
+                            "filename": "mp_coop_laser_sfm.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_lobby.bsp",
+                            "description": "mp_coop_lobby"
+                        },
+                        {
+                            "filename": "mp_coop_lobby_2.bsp",
+                            "description": "mp_coop_lobby_2"
+                        },
+                        {
+                            "filename": "mp_coop_lobby_2_sfm.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_mic_calibration.bsp",
+                            "description": "mp_coop_mic_calibration"
+                        },
+                        {
+                            "filename": "mp_coop_multifling_1.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_paint_bridge.bsp",
+                            "description": "mp_coop_paint_bridge"
+                        },
+                        {
+                            "filename": "mp_coop_paint_bridge_02.bsp",
+                            "description": "mp_coop_paint_bridge_02"
+                        },
+                        {
+                            "filename": "mp_coop_paint_bridge_intro.bsp",
+                            "description": "mp_coop_paint_bridge_intro"
+                        },
+                        {
+                            "filename": "mp_coop_paint_come_along.bsp",
+                            "description": "mp_coop_paint_come_along"
+                        },
+                        {
+                            "filename": "mp_coop_paint_crazy_box.bsp",
+                            "description": "Multiplayer Crazy Box??"
+                        },
+                        {
+                            "filename": "mp_coop_paint_fizzler_intro.bsp",
+                            "description": "mp_coop_paint_fizzler_intro"
+                        },
+                        {
+                            "filename": "mp_coop_paint_redirect.bsp",
+                            "description": "mp_coop_paint_redirect"
+                        },
+                        {
+                            "filename": "mp_coop_paint_red_racer.bsp",
+                            "description": "mp_coop_paint_red_racer"
+                        },
+                        {
+                            "filename": "mp_coop_paint_speed_catch.bsp",
+                            "description": "mp_coop_paint_speed_catch"
+                        },
+                        {
+                            "filename": "mp_coop_paint_speed_fling.bsp",
+                            "description": "mp_coop_paint_speed_fling"
+                        },
+                        {
+                            "filename": "mp_coop_race_1.bsp",
+                            "description": "mp_coop_race_1"
+                        },
+                        {
+                            "filename": "mp_coop_race_2.bsp",
+                            "description": "mp_coop_race_2"
+                        },
+                        {
+                            "filename": "mp_coop_race_3.bsp",
+                            "description": "mp_coop_race_3"
+                        },
+                        {
+                            "filename": "mp_coop_rat_maze.bsp",
+                            "description": "mp_coop_rat_maze"
+                        },
+                        {
+                            "filename": "mp_coop_rat_maze_2.bsp",
+                            "description": "mp_coop_rat_maze_2"
+                        },
+                        {
+                            "filename": "mp_coop_rocket_block.bsp",
+                            "description": "mp_coop_rocket_block"
+                        },
+                        {
+                            "filename": "mp_coop_separation_1.bsp",
+                            "description": "mp_coop_separation_1"
+                        },
+                        {
+                            "filename": "mp_coop_start.bsp",
+                            "description": "mp_coop_start"
+                        },
+                        {
+                            "filename": "mp_coop_start_02.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_start_03.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_start_sfm.bsp",
+                            "description": "mp_coop_start_sfm"
+                        },
+                        {
+                            "filename": "mp_coop_tbeam_1.bsp",
+                            "description": "mp_coop_tbeam_1"
+                        },
+                        {
+                            "filename": "mp_coop_tractor_up_sfm.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_trap_1.bsp",
+                            "description": "mp_coop_trap_1"
+                        },
+                        {
+                            "filename": "mp_coop_turret_ball.bsp",
+                            "description": "mp_coop_turret_ball"
+                        },
+                        {
+                            "filename": "mp_coop_turret_walls.bsp",
+                            "description": "mp_coop_turret_walls"
+                        },
+                        {
+                            "filename": "mp_coop_turret_walls_sfm.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_vertical_crushers.bsp",
+                            "description": "mp_coop_vertical_crushers"
+                        },
+                        {
+                            "filename": "mp_coop_vista.bsp",
+                            "description": "mp_coop_vista"
+                        },
+                        {
+                            "filename": "mp_coop_wall_1.bsp",
+                            "description": "mp_coop_wall_1"
+                        },
+                        {
+                            "filename": "mp_coop_wall_2.bsp",
+                            "description": "mp_coop_wall_2"
+                        },
+                        {
+                            "filename": "mp_coop_wall_3.bsp",
+                            "description": "mp_coop_wall_3"
+                        },
+                        {
+                            "filename": "mp_coop_wall_5.bsp",
+                            "description": "mp_coop_wall_5"
+                        },
+                        {
+                            "filename": "mp_coop_wall_6.bsp",
+                            "description": "mp_coop_wall_6"
+                        },
+                        {
+                            "filename": "mp_coop_wall_block.bsp",
+                            "description": "mp_coop_wall_block"
+                        },
+                        {
+                            "filename": "mp_coop_wall_catch.bsp",
+                            "description": "mp_coop_wall_catch"
+                        },
+                        {
+                            "filename": "mp_coop_wall_intro.bsp",
+                            "description": "mp_coop_wall_intro"
+                        },
+                        {
+                            "filename": "mp_coop_wall_intro_train.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "mp_coop_wall_stop.bsp",
+                            "description": "mp_coop_wall_stop"
+                        },
+                        {
+                            "filename": "mp_coop_wall_straight_jump.bsp",
+                            "description": "mp_coop_wall_straight_jump"
+                        },
+                        {
+                            "filename": "mp_futbol_01.bsp",
+                            "description": "mp_futbol_01"
+                        }
+                    ]
+                },
+                {
+                    "category": "Portal 2 Other",
+                    "maps": [
+                        {
+                            "filename": "ali_livingwalltest_flt.bsp",
+                            "description": "Panel animation test?"
+                        },
+                        {
+                            "filename": "ali_livingwalltest_high.bsp",
+                            "description": "Panel animation test?"
+                        },
+                        {
+                            "filename": "ali_toxicliquid_test.bsp",
+                            "description": "Catapult Intro, presumerably to test goo graphics",
+                            "areas": "catapult_intro"
+                        },
+                        {
+                            "filename": "devtest.bsp",
+                            "description": "devtest",
+                            "areas": "devtest"
+                        },
+                        {
+                            "filename": "devtest_stick.bsp",
+                            "description": "Devtest map for Adhesion Gel. Paint seems to be disabled in this map"
+                        },
+                        {
+                            "filename": "diorama_01.bsp",
+                            "description": "Map showing the 4 Old Aperture dioramas",
+                            "areas": "diorama"
+                        },
+                        {
+                            "filename": "e3_laser_stairs.bsp",
+                            "description": "E3 version of Laser Stairs",
+                            "areas": "laser_stairs"
+                        },
+                        {
+                            "filename": "e3_paint_jump_bomb_flings.bsp",
+                            "description": "E3 version of Bomb Flings",
+                            "areas": "bomb_flings"
+                        },
+                        {
+                            "filename": "e3_paint_jump_wall_jumps.bsp",
+                            "description": "Propulsion Gel trailer map",
+                            "areas": "wall_jumps"
+                        },
+                        {
+                            "filename": "e3_paint_jump_wall_jumps_gap.bsp",
+                            "description": "Barebones wall_jumps_gap?",
+                            "areas": "wall_jumps_gap"
+                        },
+                        {
+                            "filename": "e3_paint_speed.bsp",
+                            "description": "E3 crusher speed gel map, Propulsion Gel trailer"
+                        },
+                        {
+                            "filename": "e3_paint_speed_tbeam.bsp",
+                            "description": "E3 vertical crusher funnel speed gel map, Propulsion Gel trailer"
+                        },
+                        {
+                            "filename": "e3_suction.bsp",
+                            "description": "Pneumatic Diversity Vent trailer?",
+                            "areas": "suction_turrets"
+                        },
+                        {
+                            "filename": "e3_tbeam_trust_drop.bsp",
+                            "description": "E3 version of Ceiling Button",
+                            "areas": "tb_trust_drop"
+                        },
+                        {
+                            "filename": "e3_trust_fling.bsp",
+                            "description": "E3 version of Trust Fling, no pedestal button?",
+                            "areas": "trust_fling"
+                        },
+                        {
+                            "filename": "elevator_test_end.bsp",
+                            "description": "Test map with an entrance elevator and a black corridor that doesn't seem to lead to an exit elevator"
+                        },
+                        {
+                            "filename": "elevator_test_start.bsp",
+                            "description": "Test map with a black corridor and an exit elevator"
+                        },
+                        {
+                            "filename": "neurotoxin.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "paint_tube_pumps.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "pressdemo_coop_doors.bsp",
+                            "description": "pressdemo_coop_doors"
+                        },
+                        {
+                            "filename": "pressdemo_coop_laser_2.bsp",
+                            "description": "pressdemo_coop_laser_2"
+                        },
+                        {
+                            "filename": "pressdemo_coop_laser_crusher.bsp",
+                            "description": "pressdemo_coop_laser_crusher"
+                        },
+                        {
+                            "filename": "pressdemo_coop_paint.bsp",
+                            "description": "pressdemo_coop_paint"
+                        },
+                        {
+                            "filename": "pressdemo_coop_race_2.bsp",
+                            "description": "pressdemo_coop_race_2"
+                        },
+                        {
+                            "filename": "pressdemo_coop_straight_jump.bsp",
+                            "description": "pressdemo_coop_straight_jump"
+                        },
+                        {
+                            "filename": "pressdemo_coop_wall_5.bsp",
+                            "description": "pressdemo_coop_wall_5"
+                        },
+                        {
+                            "filename": "pressdemo_coop_wall_catch.bsp",
+                            "description": "pressdemo_coop_wall_catch"
+                        },
+                        {
+                            "filename": "pressdemo_coop_wall_intro.bsp",
+                            "description": "pressdemo_coop_wall_intro"
+                        },
+                        {
+                            "filename": "pressdemo_glados.bsp",
+                            "description": "Wakeup pressdemo",
+                            "areas": "wakeup"
+                        },
+                        {
+                            "filename": "pressdemo_glados_styleguide.bsp",
+                            "description": "Wakeup pressdemo styleguide?",
+                            "areas": "wakeup"
+                        },
+                        {
+                            "filename": "pressdemo_laser_stairs.bsp",
+                            "description": "Laser Stairs pressdemo version",
+                            "areas": "laser_stairs"
+                        },
+                        {
+                            "filename": "pressdemo_paint_bounce.bsp",
+                            "description": "Crazy Box in clean Aperture",
+                            "areas": "crazy_box"
+                        },
+                        {
+                            "filename": "pressdemo_paint_speed.bsp",
+                            "description": "Various speed gel puzzles for pressdemo",
+                            "areas": "speed_rocket, speed_intro"
+                        },
+                        {
+                            "filename": "pressdemo_reconfigure.bsp",
+                            "description": "Laser Relays floor building animation with a laser puzzle?",
+                            "areas": "building_the_floor"
+                        },
+                        {
+                            "filename": "pressdemo_sphere.bsp",
+                            "description": "Secret Panel pressdemo version",
+                            "areas": "secret_panel"
+                        },
+                        {
+                            "filename": "pressdemo_suction.bsp",
+                            "description": "Pneumatic Diversity Vent trailer area but older",
+                            "areas": "suction_turrets"
+                        },
+                        {
+                            "filename": "pressdemo_tbeams.bsp",
+                            "description": "Basic version of Funnel Intro",
+                            "areas": "funnel_intro"
+                        },
+                        {
+                            "filename": "shredder.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "styleguide_bts_01.bsp",
+                            "description": "BTS styleguide map"
+                        },
+                        {
+                            "filename": "styleguide_bts_02.bsp",
+                            "description": "Very blue BTS styleguide map"
+                        },
+                        {
+                            "filename": "styleguide_cave.bsp",
+                            "description": "Enrichment shaft styleguide map"
+                        },
+                        {
+                            "filename": "styleguide_destruction_1.bsp",
+                            "description": "P1 chamber 13 destruction",
+                            "areas": "p1_chamber_13"
+                        },
+                        {
+                            "filename": "styleguide_dome_01.bsp",
+                            "description": "Underground test styleguide map"
+                        },
+                        {
+                            "filename": "styleguide_foliage01.bsp",
+                            "description": "Overgrown styleguide map featuring P1 chamber 12",
+                            "areas": "p1_chamber_12"
+                        },
+                        {
+                            "filename": "styleguide_foliage02.bsp",
+                            "description": "Overgrown styleguide map featuring P1 chamber 12, near identical to above",
+                            "areas": "p1_chamber_12"
+                        },
+                        {
+                            "filename": "styleguide_lush_foliage01.bsp",
+                            "description": "Still chamber 12, very different though?",
+                            "areas": "p1_chamber_12"
+                        },
+                        {
+                            "filename": "styleguide_offices_1.bsp",
+                            "description": "Office styleguide map 1"
+                        },
+                        {
+                            "filename": "styleguide_offices_2.bsp",
+                            "description": "Office styleguide map 2"
+                        },
+                        {
+                            "filename": "styleguide_office_1970.bsp",
+                            "description": "1970s office styleguide map"
+                        },
+                        {
+                            "filename": "styleguide_paint_jump_crazy_box.bsp",
+                            "description": "Full Crazy Box styleguide map",
+                            "areas": "crazy_box"
+                        },
+                        {
+                            "filename": "styleguide_paint_jump_intro.bsp",
+                            "description": "Full Repulsion Intro styleguide map",
+                            "areas": "jump_intro"
+                        },
+                        {
+                            "filename": "styleguide_sabotage_01.bsp",
+                            "description": ""
+                        },
+                        {
+                            "filename": "vault_door.bsp",
+                            "description": "Vault door test map?",
+                            "areas": "underground"
+                        },
+                        {
+                            "filename": "world_animation_zoo_simple.bsp",
+                            "description": "Zoo of panel animations/panel animation test map"
+                        },
+                        {
+                            "filename": "zoo_foliage_01.bsp",
+                            "description": "Zoo of overgrown foliage assets"
+                        },
+                        {
+                            "filename": "zoo_foliage_swaying_test01.bsp",
+                            "description": "Treesway test zoo map"
+                        },
+                        {
+                            "filename": "zoo_giant_sphere.bsp",
+                            "description": "Big cubes?? Huge cubes even"
+                        },
+                        {
+                            "filename": "zoo_pinchers.bsp",
+                            "description": "Pincher test map?"
+                        },
+                        {
+                            "filename": "zoo_turret.bsp",
+                            "description": "Turret interaction zoo map, features cut fizzling animation"
+                        },
+                        {
+                            "filename": "zoo_world_anims_cleanup_01.bsp",
+                            "description": "Reconstructing panel animation zoo map"
+                        },
+                        {
+                            "filename": "zoo_world_anims_cleanup_02.bsp",
+                            "description": "Reconstructing panel animation zoo map, including floor construction seen in Laser Relays"
+                        },
+                        {
+                            "filename": "zoo_world_anims_labs_01.bsp",
+                            "description": "Crushers and wall art zoo map"
+                        },
+                        {
+                            "filename": "zoo_world_anims_sphere_01.bsp",
+                            "description": "Sphere peek animation zoo map"
+                        },
+                        {
+                            "filename": "zoo_world_anims_wake_01.bsp",
+                            "description": "Incinerator panel animation zoo map"
+                        }
+                    ]
+                }
+            ]
         },
         "841_1_September_24_2010": {
             "depot": "841_1",
@@ -4067,7 +5586,8 @@
             "depot": "841_7",
             "date": "February 4th 2011",
             "era": "idk",
-            "description": ""
+            "description": "",
+            "notable": ["Same time as 841_6"]
         },
         "841_8_February_11_2011": {
             "depot": "841_8",
@@ -4336,6 +5856,10 @@
         },
         "pit_flings": {
             "name": "Pit Flings",
+            "type": "Puzzle"
+        },
+        "fizzler_intro": {
+            "name": "Fizzler Intro",
             "type": "Puzzle"
         },
         "catapult_intro": {
@@ -4744,6 +6268,10 @@
             "name": "Jailbreak",
             "type": "Exploration"
         },
+        "escape": {
+            "name": "Escape",
+            "type": "Exploration"
+        },
         "sabotage_offices": {
             "name": "sabotage_offices",
             "type": "Exploration"
@@ -4775,6 +6303,27 @@
         "bts_suction": {
             "name": "bts_suction",
             "type": "Puzzle"
+        },
+        "finale_1": {
+            "name": "Finale 1",
+            "type": "Setpiece"
+        },
+        "finale_2": {
+            "name": "Finale 2",
+            "type": "Exploration"
+        },
+        "finale_3": {
+            "name": "Finale 3",
+            "type": "Exploration"
+        },
+        "finale_4": {
+            "name": "Finale 4",
+            "type": "Bossfight"
+        },
+        "liftshaft": {
+            "name": "liftshaft",
+            "description": "Tube shaft seen at the end of Conversion Intro",
+            "type": "Exploration"
         },
         "tube_blockage": {
             "name": "tube_blockage",
