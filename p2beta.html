@@ -80,9 +80,9 @@
             header.innerText = "Portal 2 beta info catalogue";
             header.style = "margin:4px;"
             mapsrc_link.innerText = "List of mapsrc files"
-            mapsrc_link.href = "/p2beta.html?type=mapsrc"
+            mapsrc_link.href = window.location.pathname + window.location.hash + "?type=mapsrc"
             betas_link.innerText = "List of betas"
-            betas_link.href = "/p2beta.html"
+            betas_link.href = window.location.pathname + window.location.hash;
         }
 
         function navbar(links) {
