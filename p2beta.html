@@ -23,6 +23,7 @@
 <body>
     <script>
         let fetchedData;
+        let fetchedMapsrc;
 
         function addElement(className, parent) {
             const element = document.createElement(className);
@@ -47,6 +48,12 @@
             element.innerText = text;
         }
 
+        function anchor(text, href) {
+            const element = addElement('a');
+            element.innerText = text;
+            element.href = href;
+        }
+
         function divider() {
             addElement('hr');
         }
@@ -62,6 +69,20 @@
                 const listItem = addElement('li', listElement);
                 listItem.innerText = text;
             });
+        }
+
+        function title() {
+            const div = addElement("div");
+            div.style = "display: flex; align-items: center; justify-content: space-between;"
+            const header = addElement("h3", div);
+            const mapsrc_link = addElement("a", div);
+            const betas_link = addElement("a", div);
+            header.innerText = "Portal 2 beta info catalogue";
+            header.style = "margin:4px;"
+            mapsrc_link.innerText = "List of mapsrc files"
+            mapsrc_link.href = "/p2beta.html?type=mapsrc"
+            betas_link.innerText = "List of betas"
+            betas_link.href = "/p2beta.html"
         }
 
         function navbar(links) {
@@ -99,6 +120,24 @@
                 });
         }
 
+        function fetchMapsrc() {
+            if (fetchedMapsrc) {
+                return Promise.resolve(fetchedMapsrc);
+            }
+
+            const url = './mapsrc_dates.txt';
+
+            return fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    fetchedMapsrc = data;
+                    return fetchedMapsrc;
+                })
+                .catch(error => {
+                    console.error("Failed to fetch mapsrc data:", error);
+                });
+        }
+
         function getVersionData() {
             if (fetchedData) {
                 return fetchedData.versions;
@@ -116,7 +155,7 @@
         }
 
         function showVersion(selectedVersion) {
-            const betas = getVersionData(selectedVersion);
+            const betas = getVersionData();
 
             const versionData = betas[selectedVersion];
 
@@ -131,7 +170,7 @@
                     "display": beta[1].date + " (" + beta[1].depot + ")"
                 })
             });
-            headerText("Portal 2 beta info catalogue", 3);
+            title();
             navbar(links);
 
             headerText(versionData.date + " (" + versionData.depot + "_" + versionData.depot_crc + ")", 1);
@@ -191,6 +230,7 @@
                 return headerText("404 Area not found")
             }
 
+            title();
             headerText(areaData.name);
             paragraphText("Area type: " + areaData.type);
             paragraphText(areaData.description);
@@ -214,12 +254,62 @@
             });
         }
 
+        function showMapsrc() {
+            const lines = fetchedMapsrc.split("\n");
+
+            let parsed = {};
+            let currentEra = "";
+
+            let table;
+            function makeEra(era) {
+                currentEra = era;
+                headerText(era, 2);
+
+                table = addElement("table");
+                let tableHeader = addElement("thead", table);
+                let tableRow = addElement("tr", tableHeader);
+                addElement("th", tableRow).innerText = "Filename";
+                addElement("th", tableRow).innerText = "Date (YYYY-MM-DD)";
+            }
+
+            const betas = getVersionData();
+
+            let links = [];
+            Object.entries(betas).forEach((beta, idx) => {
+                links.push({
+                    "query": "?beta=" + beta[0],
+                    "display": beta[1].date + " (" + beta[1].depot + ")"
+                })
+            });
+
+            
+            title();
+            headerText("Mapsrc leak metadata dump", 1);
+            navbar(links);
+            divider();
+
+            lines.forEach(line => {
+                if (line.trim().length == 0) return;
+                if (line.startsWith("-")) {makeEra(line.replaceAll(/^[\s\-]+|[\-+\s]+$/gm, "").trim()); return;}
+
+                const split = line.split("-");
+                let year = split[1];
+                let month = split[2];
+                let day = split[3];
+
+                const tableRow = addElement('tr', table);
+                addElement("td", tableRow).innerText = split[0].trim();
+                addElement("td", tableRow).innerText = year + "-" + month + "-" + day;
+            })
+        }
+
 
 
         const urlParams = new URLSearchParams(window.location.search);
 
         let selectedVersion = "";
         let selectedArea = "";
+        let mapsrc = false;
 
         const type = urlParams.get('type');
         if (type == "beta" || type == "version") {
@@ -227,6 +317,9 @@
         }
         else if (type == "area") {
             selectedArea = urlParams.get("id");
+        }
+        else if (type == "mapsrc") {
+            mapsrc = true;
         }
         else {
             selectedVersion = urlParams.get("beta") || urlParams.get("version");
@@ -240,12 +333,17 @@
         }
 
         fetchData().then(() => {
-            if (selectedVersion) {
+            if (mapsrc) {
+                fetchMapsrc().then(() => {
+                    showMapsrc();
+                });
+            }
+            else if (selectedVersion) {
                 showVersion(selectedVersion);
             } else {
                 showArea(selectedArea);
             }
-        })
+        });
     </script>
 </body>
 </html>
