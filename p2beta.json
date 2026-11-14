@@ -2,6 +2,7 @@
     "versions": {
         "852_0_July_28_2009": {
             "depot": "852_0",
+            "depot_crc": "90b0fe8e",
             "date": "July 28th 2009",
             "era": "Mid Core-Hub",
             "notable": ["F-Stop assets", "Only known Core-Hub build", ".bik movie support", "Multiplayer matchmaking"],
@@ -445,6 +446,7 @@
         },
         "841_0_February_4_2010": {
             "depot": "841_0",
+            "depot_crc": "83ced978",
             "date": "February 4th 2010",
             "era": "Early GameInformer",
             "description": "Chambers end in survey",
@@ -1447,6 +1449,7 @@
         },
         "852_1_March_18_2010": {
             "depot": "852_1",
+            "depot_crc": "a01c39f7",
             "date": "March 18th 2010",
             "era": "GameInformer",
             "description": "",
@@ -2623,6 +2626,7 @@
         },
         "852_2_July_22_2010": {
             "depot": "852_2",
+            "depot_crc": "e42966d6",
             "date": "July 22nd 2010",
             "era": "Post E3",
             "fixes": ["hl2.exe -game portal2 -tempcontent"],
@@ -2887,7 +2891,8 @@
                         },
                         {
                             "filename": "sp_mad_cabin.bsp",
-                            "description": "TARDIS, Mad Cabin, idk man"
+                            "description": "TARDIS, Mad Cabin, idk man",
+                            "areas": "mad_cabin"
                         },
                         {
                             "filename": "sp_paint_box_slime_hop.bsp",
@@ -3733,7 +3738,8 @@
                         },
                         {
                             "filename": "background_menu.bsp",
-                            "description": "Main menu map with buttons"
+                            "description": "Main menu map with buttons",
+                            "areas": "menu_background"
                         },
                         {
                             "filename": "devtest.bsp",
@@ -3994,6 +4000,7 @@
         },
         "852_3_August_30_2010": {
             "depot": "852_3",
+            "depot_crc": "4fef1298",
             "date": "August 30th 2010",
             "era": "idk",
             "description": "Map documentation copied from 852_2 and needs to be verified",
@@ -4305,7 +4312,8 @@
                         },
                         {
                             "filename": "sp_mad_cabin.bsp",
-                            "description": "TARDIS, Mad Cabin, idk man"
+                            "description": "TARDIS, Mad Cabin, idk man",
+                            "areas": "mad_cabin"
                         },
                         {
                             "filename": "sp_paint_box_slime_hop.bsp",
@@ -5519,6 +5527,7 @@
         },
         "841_1_September_24_2010": {
             "depot": "841_1",
+            "depot_crc": "8f160ceb",
             "date": "September 24th 2010",
             "era": "idk",
             "description": "",
@@ -5527,18 +5536,21 @@
         },
         "841_2_September_26_2010": {
             "depot": "841_2",
+            "depot_crc": "4228ccee",
             "date": "September 26th 2010",
             "era": "idk",
             "description": ""
         },
         "852_4_October_19_2010": {
             "depot": "852_4",
+            "depot_crc": "ce73fb24",
             "date": "October 19th 2010",
             "era": "idk",
             "description": ""
         },
         "852_6_December_1_2010": {
             "depot": "852_6",
+            "depot_crc": "d0fd2045",
             "date": "December 1st 2010",
             "era": "idk",
             "description": "",
@@ -5546,6 +5558,7 @@
         },
         "852_7_December_2_2010": {
             "depot": "852_7",
+            "depot_crc": "6d15e199",
             "date": "December 2nd 2010",
             "era": "idk",
             "description": "",
@@ -5553,6 +5566,7 @@
         },
         "841_3_January_12_2011": {
             "depot": "841_3",
+            "depot_crc": "843f190f",
             "date": "January 12th 2011",
             "era": "idk",
             "description": "",
@@ -5560,30 +5574,35 @@
         },
         "841_4_January_21_2011": {
             "depot": "841_4",
+            "depot_crc": "f6ad37ec",
             "date": "January 21st 2011",
             "era": "idk",
             "description": ""
         },
         "841_5_January_25_2011": {
             "depot": "841_5",
+            "depot_crc": "800a5310",
             "date": "January 25th 2011",
             "era": "idk",
             "description": ""
         },
         "852_8_January_25_2011": {
             "depot": "852_8",
+            "depot_crc": "f14233f6",
             "date": "January 25th 2011",
             "era": "idk",
             "description": ""
         },
         "841_6_February_4_2011": {
             "depot": "841_6",
+            "depot_crc": "800635eb",
             "date": "February 4th 2011",
             "era": "idk",
             "description": ""
         },
         "841_7_February_4_2011": {
             "depot": "841_7",
+            "depot_crc": "cd82e830",
             "date": "February 4th 2011",
             "era": "idk",
             "description": "",
@@ -5591,12 +5610,14 @@
         },
         "841_8_February_11_2011": {
             "depot": "841_8",
+            "depot_crc": "19aaf2de",
             "date": "February 11th 2011",
             "era": "idk",
             "description": ""
         },
         "841_9_February_16_2011": {
             "depot": "841_9",
+            "depot_crc": "d695a823",
             "date": "February 16th 2011",
             "era": "idk",
             "description": "",
@@ -6343,6 +6364,16 @@
         "devtest": {
             "name": "Devtest",
             "description": "Testing for dev",
+            "type": "Other"
+        },
+        "mad_cabin": {
+            "name": "Mad cabin",
+            "description": "A room with a cabin which is larger on the inside than the outside. Includes other stuff too, check out this amazing video https://www.youtube.com/watch?v=ckKxwBxgAD8",
+            "type": "Other"
+        },
+        "menu_background": {
+            "name": "Menu Background",
+            "description": "Any map that is used as a menu background",
             "type": "Other"
         }
     }
